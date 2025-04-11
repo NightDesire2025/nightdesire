@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MayaRaat - গল্পের দুনিয়া</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <h1>MayaRaat</h1>
+        <p>গল্পের জগতে স্বাগতম</p>
+    </header>
+    <main>
+        <section class="categories">
+            <div class="category" onclick="showStories('romantic')">রোমান্টিক গল্প</div>
+            <div class="category" onclick="showStories('bold')">হট ও বোল্ড গল্প</div>
+            <div class="category" onclick="showStories('thriller')">থ্রিলার / রহস্য</div>
+            <div class="category" onclick="showStories('audio')">অডিও ফিকশন</div>
+        </section>
+        <section id="storyContainer" class="stories"></section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
